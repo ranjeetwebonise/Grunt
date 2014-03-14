@@ -1,0 +1,309 @@
+@font-face
+  font-family: 'source_sans_prolight'
+  src: url('../fonts/sourcesanspro-light-webfont.eot')
+  src: url('../fonts/sourcesanspro-light-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro-light-webfont.woff') format("woff"), url('../fonts/sourcesanspro-light-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format("svg")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'source_sans_proregular'
+  src: url('../fonts/sourcesanspro-regular-webfont.eot')
+  src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/sourcesanspro-regular-webfont.woff') format("woff"), url('../fonts/sourcesanspro-regular-webfont.ttf') format("truetype"), url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format("svg")
+  font-weight: normal
+  font-style: normal
+
+
+@import "icons/*.png"
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section
+  display: block
+
+audio, canvas, video
+  display: inline-block
+  *display: inline
+  *zoom: 1
+
+h1, h2, h3, h4, h5, h6
+  margin: 0
+  padding: 0
+
+html, body
+  margin: 0
+  padding: 0
+  font-family: Minion Pro, sans-serif
+  font-size: 18px
+  line-height: 28px
+  color: #555555
+
+a
+  outline: none
+  text-decoration: none
+  &:hover
+    text-decoration: none
+
+#wrapper
+  background: #ffffff
+  padding-top: 100px
+.logo 
+  background: url(../images/logo.png) no-repeat
+  width: 270px
+  height: 84px 
+  float: left
+  margin: 5px 0 0
+.navigationContent  
+  float: right
+.navbar  
+  background: #ffffff 
+  ul.nav
+    margin: 0
+    li 
+      padding: 16px 0 16px 34px
+      a
+        font-family: 'source_sans_prolight'
+        font-size: 18px
+        font-weight: normal
+        color: #dc000d
+        text-transform: uppercase
+        padding: 0
+        &:hover 
+          color: #000000
+
+ul.votingInformation  
+  float: right
+  clear: both
+  margin: 0 0 10px
+  li
+    display: inline-block
+    float: left
+    font-family: Source Sans Pro
+    font-size: 14px
+    span
+      color: #000000
+      font-weight: bold
+      a
+        display: block
+        color: #dc000d
+        padding: 0
+        margin: 0
+        border: 0
+        &:hover
+          background: none
+          color: #dc000d
+    a
+      display: block
+      padding: 3px 10px
+      border: solid 1px #dc000d
+      color: #dc000d
+      margin: 0 0 0 10px
+      border-radius: 6px
+      &:hover
+        background: #dc000d
+        color: #ffffff
+
+/* sliderContent
+.sliderContent
+  background: url(../images/slider1_bg.jpg) no-repeat center top #000000
+  min-height: 650px
+  position: relative
+.textcontent 
+  text-align: center
+  color: #fff
+  position: absolute
+  display: block
+  left: 0
+  right: 0
+  bottom: 90px
+  h2
+    font-family: 'source_sans_prolight'
+    font-size: 48px
+    margin-bottom: 20px
+    font-weight: normal
+  p
+    margin-bottom: 25px
+    span
+      display: block
+.readMore
+  display: inline-block
+  padding: 5px 20px
+  color: #ffffff
+  border: solid 1px #ffffff
+  border-radius: 20px
+.viewAllText 
+  display: inline-block
+  font-family: 'source_sans_prolight'
+  font-size: 18px
+  padding: 5px 20px
+  color: #dc000d
+  border: solid 1px #dc000d
+  border-radius: 20px
+
+.pager 
+  overflow: hidden
+  text-align: center
+  position: absolute
+  bottom: 10px
+  width: 100%
+  z-index: 500
+  span
+    @include icons-sprite(pager_bg)
+    display: inline-block
+    width: 11px
+    height: 11px
+    margin-right: 5px
+    cursor: pointer
+    &:hover
+      @include icons-sprite(pager_active_bg)
+
+.bioWrap,
+.issuesWrap,
+.contactWrap
+  background: url(../images/orange_bg.jpg) no-repeat center top
+  min-height: 650px
+  margin-bottom: 100px
+  .bioContent
+    width: 620px
+    margin: 0 auto
+    text-align: center
+    color: #ffffff
+    padding-top: 100px
+    h2,
+    h4
+      font-family: 'source_sans_prolight'
+      font-size: 48px
+      margin-bottom: 10px
+      font-weight: normal
+    h4
+      font-size: 24px
+      margin-bottom: 30px
+    p
+      margin-bottom: 30px
+  .profileWrap
+    /* background: #ffffff
+    width: 140px
+    height: 140px
+    display: block
+    margin: 0 auto 25px
+    border-radius: 70px
+/* recentNewsContent
+.recentNewsContent, 
+.issuesContent,
+.galleryContent
+  width: 620px
+  margin: 0 auto
+  padding-bottom: 100px
+  text-align: center
+  h2    
+    font-family: 'source_sans_prolight'
+    font-size: 48px
+    margin-bottom: 60px
+    font-weight: normal
+    text-align: center
+  ul.newList,
+  ul.issuesList,
+  ul.imageGallery
+    margin: 0
+    li
+      display: block
+      margin-bottom: 30px
+      padding-bottom: 45px
+      border-bottom: solid 1px #e5e5e5
+      text-align: left
+      h3        
+        font-family: 'source_sans_prolight'
+        font-size: 30px
+        line-height: 30px
+        color: #dc000d
+        margin-bottom: 10px
+        font-weight: normal
+      span
+        display: block
+        color: #aaaaaa
+        margin-bottom: 20px
+      p
+        font-size: 16px
+        line-height: 28px
+.issuesContent,
+.contactWrap
+  padding-top: 100px
+  p,
+  h2,
+  .viewAllText
+    color: #ffffff
+
+  ul.issuesList
+    li
+      h3
+        color: #ffffff      
+      span
+        color: #f0a995
+  .viewAllText
+    border-color: #ffffff
+
+
+.galleryContent
+  ul.imageGallery
+    margin-left: -20px
+    li
+      display: inline-block
+      float: left
+      margin: 0 0 20px 20px
+      padding: 0
+      border: 0
+      position: relative
+  .playBtn
+    @include icons-sprite(play_btn)
+    width: 40px
+    height: 41px
+    position: absolute
+    top: 45%
+    left: 45%
+    cursor: pointer
+
+.contactWrap
+  text-align: center  
+  color: #ffffff
+  margin: 0
+  min-height: 550px
+  h2,
+  p,
+  a,
+  span   
+    font-family: 'source_sans_prolight'
+    font-size: 48px
+    margin-bottom: 130px
+    font-weight: normal
+  p,
+  a,
+  span
+    font-size: 24px
+    margin-bottom: 20px  
+  span
+    display: block
+  a
+    font-family: 'source_sans_proregular'
+    text-decoration: underline
+    color: #ffffff
+  ul.followLinks
+    margin: 0
+    li
+      display: inline-block
+      margin-left: 10px
+      &:first-child
+        margin-left: 0
+  .fbIcon,
+  .tiwtIcon,
+  .inIcon
+    @include icons-sprite(fb_icon)
+    width: 31px
+    height: 31px
+    display: block
+    margin: 0
+  .tiwtIcon
+    @include icons-sprite(twit_icon)
+  .inIcon
+    @include icons-sprite(in_icon)
+
+
+
+
+

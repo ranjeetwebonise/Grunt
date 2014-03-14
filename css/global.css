@@ -1,0 +1,497 @@
+@font-face {
+  font-family: "source_sans_prolight";
+  src: url("../fonts/sourcesanspro-light-webfont.eot");
+  src: url("../fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-light-webfont.woff") format("woff"), url("../fonts/sourcesanspro-light-webfont.ttf") format("truetype"), url("../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_proregular";
+  src: url("../fonts/sourcesanspro-regular-webfont.eot");
+  src: url("../fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"), url("../fonts/sourcesanspro-regular-webfont.ttf") format("truetype"), url("../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 82, icons/*.png */
+.icons-sprite, .pager span, .pager span:hover, .galleryContent .playBtn, .contactWrap .fbIcon,
+.contactWrap .tiwtIcon,
+.contactWrap .inIcon {
+  background: url('../images/icons-sdaf7036961.png') no-repeat;
+}
+
+/* line 18, ../sass/global.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 21, ../sass/global.sass */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 26, ../sass/global.sass */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 30, ../sass/global.sass */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Minion Pro, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #555555;
+}
+
+/* line 38, ../sass/global.sass */
+a {
+  outline: none;
+  text-decoration: none;
+}
+/* line 41, ../sass/global.sass */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 44, ../sass/global.sass */
+#wrapper {
+  background: white;
+  padding-top: 100px;
+}
+
+/* line 47, ../sass/global.sass */
+.logo {
+  background: url(../images/logo.png) no-repeat;
+  width: 270px;
+  height: 84px;
+  float: left;
+  margin: 5px 0 0;
+}
+
+/* line 53, ../sass/global.sass */
+.navigationContent {
+  float: right;
+}
+
+/* line 55, ../sass/global.sass */
+.navbar {
+  background: white;
+}
+/* line 57, ../sass/global.sass */
+.navbar ul.nav {
+  margin: 0;
+}
+/* line 59, ../sass/global.sass */
+.navbar ul.nav li {
+  padding: 16px 0 16px 34px;
+}
+/* line 61, ../sass/global.sass */
+.navbar ul.nav li a {
+  font-family: "source_sans_prolight";
+  font-size: 18px;
+  font-weight: normal;
+  color: #dc000d;
+  text-transform: uppercase;
+  padding: 0;
+}
+/* line 69, ../sass/global.sass */
+.navbar ul.nav li a:active {
+  color: black;
+}
+
+/* line 72, ../sass/global.sass */
+ul.votingInformation {
+  float: right;
+  clear: both;
+  margin: 0 0 10px;
+}
+/* line 76, ../sass/global.sass */
+ul.votingInformation li {
+  display: inline-block;
+  float: left;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+}
+/* line 81, ../sass/global.sass */
+ul.votingInformation li span {
+  color: black;
+  font-weight: bold;
+}
+/* line 84, ../sass/global.sass */
+ul.votingInformation li span a {
+  display: block;
+  color: #dc000d;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 91, ../sass/global.sass */
+ul.votingInformation li span a:active {
+  background: none;
+  color: #dc000d;
+}
+/* line 94, ../sass/global.sass */
+ul.votingInformation li a {
+  display: block;
+  padding: 3px 10px;
+  border: solid 1px #dc000d;
+  color: #dc000d;
+  margin: 0 0 0 10px;
+  border-radius: 6px;
+}
+/* line 101, ../sass/global.sass */
+ul.votingInformation li a:hover {
+  background: #dc000d;
+  color: white;
+}
+
+/* sliderContent */
+/* line 106, ../sass/global.sass */
+.sliderContent {
+  background: url(../images/slider1_bg.jpg) no-repeat center top black;
+  min-height: 650px;
+  position: relative;
+}
+
+/* line 110, ../sass/global.sass */
+.textcontent {
+  text-align: center;
+  color: white;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 90px;
+}
+/* line 118, ../sass/global.sass */
+.textcontent h2 {
+  font-family: "source_sans_prolight";
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+/* line 123, ../sass/global.sass */
+.textcontent p {
+  margin-bottom: 25px;
+}
+/* line 125, ../sass/global.sass */
+.textcontent p span {
+  display: block;
+}
+
+/* line 127, ../sass/global.sass */
+.readMore {
+  display: inline-block;
+  padding: 5px 20px;
+  color: white;
+  border: solid 1px white;
+  border-radius: 20px;
+}
+
+/* line 133, ../sass/global.sass */
+.viewAllText {
+  display: inline-block;
+  font-family: "source_sans_prolight";
+  font-size: 18px;
+  padding: 5px 20px;
+  color: #dc000d;
+  border: solid 1px #dc000d;
+  border-radius: 20px;
+}
+
+/* line 142, ../sass/global.sass */
+.pager {
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  z-index: 500;
+}
+/* line 149, ../sass/global.sass */
+.pager span {
+  background-position: 0 -145px;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+/* line 156, ../sass/global.sass */
+.pager span:hover {
+  background-position: 0 -134px;
+}
+
+/* line 159, ../sass/global.sass */
+.bioWrap,
+.issuesWrap,
+.contactWrap {
+  background: url(../images/orange_bg.jpg) no-repeat center top;
+  min-height: 650px;
+  margin-bottom: 100px;
+}
+/* line 165, ../sass/global.sass */
+.bioWrap .bioContent,
+.issuesWrap .bioContent,
+.contactWrap .bioContent {
+  width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+/* line 171, ../sass/global.sass */
+.bioWrap .bioContent h2,
+.bioWrap .bioContent h4,
+.issuesWrap .bioContent h2,
+.issuesWrap .bioContent h4,
+.contactWrap .bioContent h2,
+.contactWrap .bioContent h4 {
+  font-family: "source_sans_prolight";
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+/* line 177, ../sass/global.sass */
+.bioWrap .bioContent h4,
+.issuesWrap .bioContent h4,
+.contactWrap .bioContent h4 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+/* line 180, ../sass/global.sass */
+.bioWrap .bioContent p,
+.issuesWrap .bioContent p,
+.contactWrap .bioContent p {
+  margin-bottom: 30px;
+}
+/* line 182, ../sass/global.sass */
+.bioWrap .profileWrap,
+.issuesWrap .profileWrap,
+.contactWrap .profileWrap {
+  /* background: #ffffff */
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 0 auto 25px;
+  border-radius: 70px;
+}
+
+/* recentNewsContent */
+/* line 190, ../sass/global.sass */
+.recentNewsContent,
+.issuesContent,
+.galleryContent {
+  width: 620px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  text-align: center;
+}
+/* line 197, ../sass/global.sass */
+.recentNewsContent h2,
+.issuesContent h2,
+.galleryContent h2 {
+  font-family: "source_sans_prolight";
+  font-size: 48px;
+  margin-bottom: 60px;
+  font-weight: normal;
+  text-align: center;
+}
+/* line 203, ../sass/global.sass */
+.recentNewsContent ul.newList,
+.recentNewsContent ul.issuesList,
+.recentNewsContent ul.imageGallery,
+.issuesContent ul.newList,
+.issuesContent ul.issuesList,
+.issuesContent ul.imageGallery,
+.galleryContent ul.newList,
+.galleryContent ul.issuesList,
+.galleryContent ul.imageGallery {
+  margin: 0;
+}
+/* line 207, ../sass/global.sass */
+.recentNewsContent ul.newList li,
+.recentNewsContent ul.issuesList li,
+.recentNewsContent ul.imageGallery li,
+.issuesContent ul.newList li,
+.issuesContent ul.issuesList li,
+.issuesContent ul.imageGallery li,
+.galleryContent ul.newList li,
+.galleryContent ul.issuesList li,
+.galleryContent ul.imageGallery li {
+  display: block;
+  margin-bottom: 30px;
+  padding-bottom: 45px;
+  border-bottom: solid 1px #e5e5e5;
+  text-align: left;
+}
+/* line 213, ../sass/global.sass */
+.recentNewsContent ul.newList li h3,
+.recentNewsContent ul.issuesList li h3,
+.recentNewsContent ul.imageGallery li h3,
+.issuesContent ul.newList li h3,
+.issuesContent ul.issuesList li h3,
+.issuesContent ul.imageGallery li h3,
+.galleryContent ul.newList li h3,
+.galleryContent ul.issuesList li h3,
+.galleryContent ul.imageGallery li h3 {
+  font-family: "source_sans_prolight";
+  font-size: 30px;
+  line-height: 30px;
+  color: #dc000d;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+/* line 220, ../sass/global.sass */
+.recentNewsContent ul.newList li span,
+.recentNewsContent ul.issuesList li span,
+.recentNewsContent ul.imageGallery li span,
+.issuesContent ul.newList li span,
+.issuesContent ul.issuesList li span,
+.issuesContent ul.imageGallery li span,
+.galleryContent ul.newList li span,
+.galleryContent ul.issuesList li span,
+.galleryContent ul.imageGallery li span {
+  display: block;
+  color: #aaaaaa;
+  margin-bottom: 20px;
+}
+/* line 224, ../sass/global.sass */
+.recentNewsContent ul.newList li p,
+.recentNewsContent ul.issuesList li p,
+.recentNewsContent ul.imageGallery li p,
+.issuesContent ul.newList li p,
+.issuesContent ul.issuesList li p,
+.issuesContent ul.imageGallery li p,
+.galleryContent ul.newList li p,
+.galleryContent ul.issuesList li p,
+.galleryContent ul.imageGallery li p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* line 227, ../sass/global.sass */
+.issuesContent,
+.contactWrap {
+  padding-top: 100px;
+}
+/* line 230, ../sass/global.sass */
+.issuesContent p,
+.issuesContent h2,
+.issuesContent .viewAllText,
+.contactWrap p,
+.contactWrap h2,
+.contactWrap .viewAllText {
+  color: white;
+}
+/* line 237, ../sass/global.sass */
+.issuesContent ul.issuesList li h3,
+.contactWrap ul.issuesList li h3 {
+  color: white;
+}
+/* line 239, ../sass/global.sass */
+.issuesContent ul.issuesList li span,
+.contactWrap ul.issuesList li span {
+  color: #f0a995;
+}
+/* line 241, ../sass/global.sass */
+.issuesContent .viewAllText,
+.contactWrap .viewAllText {
+  border-color: white;
+}
+
+/* line 246, ../sass/global.sass */
+.galleryContent ul.imageGallery {
+  margin-left: -20px;
+}
+/* line 248, ../sass/global.sass */
+.galleryContent ul.imageGallery li {
+  display: inline-block;
+  float: left;
+  margin: 0 0 20px 20px;
+  padding: 0;
+  border: 0;
+  position: relative;
+}
+/* line 255, ../sass/global.sass */
+.galleryContent .playBtn {
+  background-position: 0 0;
+  width: 40px;
+  height: 41px;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  cursor: pointer;
+}
+
+/* line 264, ../sass/global.sass */
+.contactWrap {
+  text-align: center;
+  color: white;
+  margin: 0;
+  min-height: 550px;
+}
+/* line 269, ../sass/global.sass */
+.contactWrap h2,
+.contactWrap p,
+.contactWrap a,
+.contactWrap span {
+  font-family: "source_sans_prolight";
+  font-size: 48px;
+  margin-bottom: 130px;
+  font-weight: normal;
+}
+/* line 277, ../sass/global.sass */
+.contactWrap p,
+.contactWrap a,
+.contactWrap span {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* line 282, ../sass/global.sass */
+.contactWrap span {
+  display: block;
+}
+/* line 284, ../sass/global.sass */
+.contactWrap a {
+  font-family: "source_sans_proregular";
+  text-decoration: underline;
+  color: white;
+}
+/* line 288, ../sass/global.sass */
+.contactWrap ul.followLinks {
+  margin: 0;
+}
+/* line 290, ../sass/global.sass */
+.contactWrap ul.followLinks li {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* line 293, ../sass/global.sass */
+.contactWrap ul.followLinks li:first-child {
+  margin-left: 0;
+}
+/* line 295, ../sass/global.sass */
+.contactWrap .fbIcon,
+.contactWrap .tiwtIcon,
+.contactWrap .inIcon {
+  background-position: 0 -103px;
+  width: 31px;
+  height: 31px;
+  display: block;
+  margin: 0;
+}
+/* line 303, ../sass/global.sass */
+.contactWrap .tiwtIcon {
+  background-position: 0 -41px;
+}
+/* line 305, ../sass/global.sass */
+.contactWrap .inIcon {
+  background-position: 0 -72px;
+}
